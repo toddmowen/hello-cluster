@@ -5,6 +5,6 @@ class HelloClusterSpec extends ThermometerSpec { def is = s2"""
 """
 
   def hello = {
-    runsSuccessfully(HelloCluster.pipe) must_== Seq("Hello Cluster!")
+    executesSuccessfully(HelloCluster.execution) must_== Seq("Hello Cluster!")
   }
 }
