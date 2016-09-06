@@ -1,5 +1,7 @@
 uniform.project("hello-cluster", "")
 
+uniformAssemblySettings
+
 val thermometerVersion = "1.4.3-20160617114144-562e6e0"
 
 libraryDependencies ++=
